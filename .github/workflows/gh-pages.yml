@@ -30,7 +30,9 @@ jobs:
           node-version: '18'
 
       - name: Install dependencies
-        run: npm install --no-package-lock
+        run: |
+          npm install --platform=linux --arch=x64
+          npm rebuild
 
       - name: Build
         run: npm run build
