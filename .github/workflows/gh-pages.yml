@@ -27,13 +27,13 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '18' # Menggunakan versi 18 sesuai file lamamu[cite: 1]
+          node-version: '18'
 
       - name: Install dependencies
-        run: npm ci # Menjalankan install sesuai file lamamu[cite: 1]
+        run: npm ci
 
       - name: Build
-        run: npm run build # Menjalankan build sesuai file lamamu[cite: 1]
+        run: npm run build
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -41,7 +41,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './dist' # Mengambil hasil build dari folder dist[cite: 1]
+          path: './dist'
 
       - name: Deploy to GitHub Pages
         id: deployment
