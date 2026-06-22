@@ -1,0 +1,6 @@
+{
+  "name": "Simulasi CAT CPNS",
+  "description": "Aplikasi Simulasi CAT CPNS interaktif dengan pembagian kategori tes TWK, TIU, dan TKP, sistem skoring real-time, grafik pencapaian passing grade, dan pembahasan soal yang mendalam.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
